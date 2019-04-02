@@ -1,0 +1,159 @@
+/* arimo-regular - latin */
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arimo-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Arimo Regular'), local('Arimo-Regular'),
+    url('../fonts/arimo-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/arimo-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arimo-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arimo-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/arimo-v12-latin-regular.svg#Arimo') format('svg'); /* Legacy iOS */
+}
+body {
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+}
+
+table, tr, td, th {
+    width: 198px;
+    height: 166px;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 -4px 6px -4px rgba(0, 0, 0, 0.27);
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 18px 23px;
+    color: #484848;
+    vertical-align:middle;
+    background-color: white;
+}
+
+table {
+    border: solid 27px #364664;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+td {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:  #484848;
+}
+
+td:nth-child(1) {
+    color: #ffffff;
+}
+
+td:nth-child(2n+2) {
+    background-color: #e3e3e3;
+}
+
+td:nth-child(2n+3) {
+    background-color: #f2f2f2;
+}
+
+th:nth-child(2n+2) {
+    background-color: #e3e3e3;
+}
+
+th:nth-child(2n+3) {
+    background-color: #f2f2f2;
+}
+i {
+    color:  #848484;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.standard-plan {
+    background-color: #89c331;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.ultimate-plan {
+    background-color: #f04a56;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.premium-plan {
+    background-color: #20807c;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+td p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.price{
+    display: inline-block;
+    font-size: 36px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 50px;
+
+}
+.price-block {
+    margin: 2px 0 0 0;
+}
+.price-decimal{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: 12px;
+}
+.frequency {
+    line-height: 36px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.pricing-plan {
+    color:  #484848;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 28px;
+}
+
+.pricing-plan-big {
+    font-size: 20px;
+}
+
+.btn{
+    position: relative;
+    border-radius: 5px;
+    background-color:  #414141;
+    border: none;
+    color: #fff;
+    padding: 5px 34px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    border-bottom:  solid 5px #343434;
+    border-top: solid 5px transparent;
+    display: block;
+    margin: auto;
+    top: 7px;
+}
+
+.btn:hover{
+    position: relative;
+    background-color: #343434;
+    border-top-color: #414141;
+    cursor: pointer;
+    top: 12px;
+}
